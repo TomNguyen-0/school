@@ -1,0 +1,68 @@
+this is a header record!
+HSUM   000000002F04
+Parsed SUM   
+Parsed 000000
+Parsed 002F04
+this is a text record!
+T0000001E0500000320033F691017911BA0131BC0002F200A3B2FF40F102F014F0000
+Starting Address (Binary): 000000000000000000000000
+Starting Address (Hex): 0000
+Record Length (Binary) 00011110
+Record Length (Decimal in Bits) 240
+Opcode Bits 000001
+Opcode String 000001
+n=0 i=1 x=0 b=0 p=0 e=0
+op #symtab
+The Format: 34
+Opcode Bits 000000
+Opcode String 000000
+n=1 i=1 x=0 b=0 p=1 e=0
+op symtab
+The Format: 34
+Opcode Bits 001111
+Opcode String 001111
+n=1 i=1 x=0 b=1 p=1 e=0
+Error
+The Format: 34
+Opcode Bits 000101
+Opcode String 000101
+n=1 i=1 x=1 b=0 p=0 e=1
++op symtab,X
+The Format: 34
+Opcode Bits 101000
+Opcode String 101000
+n=0 i=0 x=0 b=0 p=0 e=1
+op symtab
+The Format: 2
+Opcode Bits 110000
+Opcode String 110000
+n=0 i=0 x=0 b=0 p=0 e=0
+op symtab
+The Format: 1
+Opcode Bits 001000
+Opcode String 001000
+n=0 i=0 x=0 b=0 p=0 e=0
+op symtab
+The Format: 34
+Opcode Bits 001011
+Opcode String 001011
+n=1 i=1 x=1 b=1 p=1 e=1
+Error
+The Format: 34
+Opcode Bits 000100
+Opcode String 000100
+n=0 i=0 x=0 b=0 p=1 e=0
+op symtab
+The Format: 34
+Opcode Bits 010011
+Opcode String 010011
+n=1 i=1 x=0 b=0 p=0 e=0
+op symtab
+The Format: 34
+this is a modification record!
+M00000805
+this is a modification record!
+M00001805
+this is an end record!
+E000000
+Parsed 000000

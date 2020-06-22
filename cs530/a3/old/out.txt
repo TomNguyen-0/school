@@ -1,0 +1,29 @@
+first = one1 + two2 - three3 / four4 ; 	True
+second = one1 * (two2 * three3) ; 	True
+second = one1 * (two2 * three3) ; 	True
+third = ONE + twenty - three3 ; 	True
+third = old * thirty2 / b567 ; 	True
+one1 * i8766e98e + bignum 	True
+ab + (_no - yes) * maybe 	True
+ab * no / (_open % _2131) 	True
+_938 / (nope % (me * you)  	True
+_aid - (dh29 % (kd + (i8 * oe)))  	True
+id9 % dje + (ue - _3i) * ((nope / yes) * yes) 	True
+one1 * i8766e98e + bignum 	True
+_1b9d828 = abc + bcd = c = aud + _ajdu ; 	False	Syntactical Failure
+(di (ad if + _de )); 	False	Syntactical Failure
+one = (a(b(d + _d)) ; 	False	Tokenization Failure
+one = (a(_b(d + d))) ; 	False	Tokenization Failure
+first = = one1 + two2 - three3 / four4 ; 	False	Syntactical Failure
+first = one1 + two2 - three3 / four4 	False	Syntactical Failure
+first = 1 + - two2 - three3 / four4 ; 	False	Tokenization Failure
+first = one1 + two2 ? three3 / four4 ; 	False	Tokenization Failure
+second = 4 + ( one1 * two2 ) * ( three3 + four4 ; 	False	Tokenization Failure
+third = one1 + 24 - three3 ; 	False	Tokenization Failure
+one1 +- delta 	False	Tokenization Failure
+sixty6 / min = fourth ; 	False	Syntactical Failure
+_1b9d828 = abc + bcd = c = aud + _ajdu ; 	False	Syntactical Failure
+(di (ad if + _de )); 	False	Syntactical Failure
+one = (a(b(d + _d)) ; 	False	Tokenization Failure
+one = (a(_b(d + d))) ; 	False	Tokenization Failure
+a = b + - C ; 	False	Syntactical Failure

@@ -1,0 +1,23 @@
+Symbol  Value   Flags:
+-----------------------
+FIRST   001000  R
+CLOOP   001003  R
+ENDFIL  001015  R
+EOF     00102A  R
+THREE   00102D  R
+ZERO    001030  R
+RETADR  001033  R
+LLENGTH 001036  R
+BUFFER  001039  R
+RDREC   002039  R
+RLOOP   00203F  R
+EXIT    002057  R
+INPUT   00205D  R
+MAXLEN  00205E  R
+WRREC   002061  R
+WLOOP   002064  R
+OUTPUT  002079  R
+
+Name    Literal  Length Address:
+------------------------------
+        =X'3F'     2    000003    

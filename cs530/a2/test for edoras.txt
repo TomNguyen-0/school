@@ -1,0 +1,4 @@
+cd a2/
+gcc lab2.c -std=c99
+a.out sample.obj
+

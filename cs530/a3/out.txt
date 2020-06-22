@@ -1,0 +1,12 @@
+first = one1 + two2 - three3 / four4 ; 	True
+third = ONE + twenty - three3 ; 	True
+third = old * thirty2 / b567 ;	True
+ one1 * i8766e98e + bignum	True
+first = = one1 + two2 - three3 / four4 ; 	False	Syntactical Failure
+first = one1 + two2 - three3 / four4	False	Syntactical Failure
+first = 1 + - two2 - three3 / four4 ; 	False	Tokenization Failure
+first = one1 + two2 ? three3 / four4 ; 	False	Tokenization Failure
+third = one1 + 24 - three3 ; 	False	Tokenization Failure
+one1 +- delta	False	Tokenization Failure
+sixty6 / min = fourth ;	False	Syntactical Failure
+ 

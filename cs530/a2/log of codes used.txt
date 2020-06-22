@@ -1,0 +1,136 @@
+
+
+printf("%c ",characters[j]);
+
+void turnitback (char * characters, int length);
+
+turnitback(fileArray, sizeof(fileArray));
+
+void turnitback (char* characters, int length){
+   int i,number=0,j=0,n;
+   //printf("%d",characters[length]);
+   for( i = 0; i< length; i++){
+         
+         if(j==0){ //highest position, 8
+            if(characters[i]=='1')
+               number+=8;
+         }
+         if(j==1){ //4
+            if(characters[i]=='1')
+               number+=4;
+         }
+         if(j==2){ //2
+            if(characters[i]=='1')
+               number+=2;
+         }
+         if(j==3){ //lowest position, 1
+            if(characters[i]=='1')
+               number+=1;
+         }
+      
+      j++;
+      if (j==4){
+         //printf("%d",number);
+         printf("%X",number);
+         number=0;
+         j=0;
+      }
+      
+   }
+   
+   
+    printf("apples: %s\n",symLine);
+	                    printf("apples: %s\n",line2);
+                    printf("apples2: %s\n",symFile);
+symFlag[] // flaged used for resw resb word byte
+ printf("%s\t%c%s\t%s%s\n", outputLabel, plusExtension, opcodeName, operandValue, commaX);
+ literals  //
+ symbols //
+ symValues //
+ int programCounter;
+ progptr
+ ret = strncmp(str1, str2, 6);
+         if(y <= symCounter)
+            if(strcmp(outputLabel,symbols[y])==0)
+               y++;
+ symCounter
+ printf("\t\tLTORG\n ");
+  printf("symValues: %s\n",symValues[yy++]);
+ 
+ void RESW (int nextAddress, int currentAddress){ //prints RESW
+ int convertHexToInt(char* hexToConvert)
+ char lengthOfRecord[9];
+argc=2;
+   argv[1]="C:/Users/tom/Desktop/projects/cs530/a2/sample.obj";
+ 
+ int main(int argc, char *argv[])
+ 
+operandValue[0] = '#';
+
+ //         printf("LTORG= %s\n",LTORG ? "true" : "false");
+//         printf("isBase= %s\n",isBase? "true" : "false");
+ 
+void notation(int nIndex, int dispIndex, char* recordLine)
+void nixbpeFunction (char* characters,  int location, int nixbpeIndex) 
+literals[litCounter]
+literalAddresses[litCounter]
+int main()
+{
+    char byte = 0x37;
+    int i;
+
+    for(i = 7; 0 <= i; i --)
+        printf("%d\n", (byte >> i) & 0x01);
+
+    return 0;
+}
+
+$ false ; echo $?
+1
+$ true ; echo $?
+0
+int main (int argc, char *argv[])
+{
+    char buffer[BUFFERSIZE];
+    fgets(buffer, BUFFERSIZE , stdin);
+    printf("Read: %s", buffer);
+    return 0;
+}
+
+fgets ( string, 256, stdin );
+if (fgets(filename, sizeof(filename), stdin) == NULL)
+
+char (*ptr)[5];
+
+assigned it the address of a char array.
+
+char arr[5] = {'a','b','c','d','e'};
+ptr = &arr;
+
+  //    printf("fileSize: %d\n",fileSize);
+     // characterArray = fileArray;
+//		printf("argv[%d] = %s\n", i, argv[i]); //debugging	 
+//	printf("argc =%d\n",argc); //debugging
+
+					// printf("%c",iochar);
+					// case5=0;
+				//}
+			//}
+			//else{                         /*prints the character with no changed*/
+			//	fileArray[location++]=iochar;
+				//case5++;
+				//caseLast();
+			//}
+							//if(case5!=0){
+							
+							
+ //  for(z=0; z<fileSize;z++){
+      //printf("%c",*(characterArray+z));
+ //     printf("%c",fileArray[z]);
+ //    }
+   //   printf("\n%d",z%20);
+   //  printf("\n%d",z);
+   //  printf("\n%d",sizeof fileArray);
+   ungetc (c,fp); 
+   fprintf(openFile,"string")
+void outprint(char* array, int size, FILE *fout)

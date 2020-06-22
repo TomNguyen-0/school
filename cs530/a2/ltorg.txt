@@ -1,0 +1,32 @@
+bool LTORG(char* recordLine,int dispIndex); //checks for the use of lit tab, LTORG
+int ltorgLocation; //the location in literal[] when LTORG is to be used
+
+void notation(int nIndex, int dispIndex, char* recordLine) {
+.
+.
+.
+    if(error==0){//something went wrong
+      if(LTORG(recordLine,dispIndex))
+        printf(literals[ltorgLocation]);
+    }
+
+}
+bool LTORG(char* recordLine,int dispIndex){
+   int p,q;//used for loops
+   int endingIndexToCheck=dispIndex-12;
+   char * binaryLitAddress;
+   bool ltorg=false;
+   for(p=0; p<litCounter; p++){
+       binaryLitAddress = hexToBinary(literalAddresses[p]);
+          for(q=0; q<12; q++){
+           if(recordLine[endingIndexToCheck-q]==binaryLitAddress[24-q])
+              if(q==0){
+               ltorgLocation=p;
+               return true; 
+               }
+           else
+               return false;
+          }
+       }
+   return true;
+}

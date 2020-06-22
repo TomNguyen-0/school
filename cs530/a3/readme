@@ -1,0 +1,41 @@
+Assignment #2, XE Disassembler 
+File Information: README
+Names: Kellen Gillooley (818216237), Tom Nguyen (820468110) 
+
+Class information
+CS 530, Spring 2017
+Account for Submission: 
+Kellen Gillooley: cssc1024@edoras.sdsu.edu
+Tom Nguyen: cssc0883@edoras.sdsu.edu
+
+Project Description
+This program is a Preprocessor for a set of BNF rules. As a preprocessor, it performs the Lexical and Syntactic analysis of the given lines of code. 
+
+File Manifest
+README.txt
+a3.py
+
+Compile Instructions
+This program is written in Python, which does not need to be compiled.
+
+Execution Instructions 
+The program is executed using the command: python a3.py
+As the program specifications specify that we “shall read input from a file named in.txt”, we can assume that the file in.txt will exist in the directory our program will be tested in.
+
+Known Deficiencies or Bugs
+Do not type: python a3.py in.txt
+Does not handle arugments
+
+
+Lessons Learned 
+We learned many things about the Preprocessor phase during this assignment. Having to design a preprocessor required that we have intimate knowledge of how Preprocessors work and what they do. We first had to understand that the Preprocessor is broken into two main parts, the Lexical and Syntactic analyzers. 
+In order to complete this project, we had to know more than just this. We also had to understand how these phases worked. This assignment gave us a chance to learn the minute details of Lexical and Syntactic phases of the compiler. Programming the preprocessor allowed us to learn how the compiler recognizes and creates tokens. Furthermore, we also learned how the compiler uses the tokens to check whether or not the code has valid syntax. 
+
+BNF Rules
+
+<assignment> ::= <id> := <exp> ;
+<exp> ::= <id> <op> <id> {<op> <id>}*
+<id> ::= <char>| _ | <id> <char> | <id> <digit> | <id> _
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+<char> ::= a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+<op> ::= + | - | * | / | % 
