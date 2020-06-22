@@ -1,0 +1,1 @@
+each push is one clock for the clock cycle. 
